@@ -2,7 +2,8 @@
     width: 300px;
     height: 510px;
     border: 1px solid red;
-    border-radius: 7px;;
+    border-radius: 7px;
+    position:relative;
 }
 img{
     width:286px;
@@ -28,4 +29,15 @@ img{
 }
 .product-info p{
     margin-top: 5px;
+}
+.btn-cart{
+    background-color: burlywood;
+    border:1px solid gray;
+    border-radius: 0px 0px 8px 8px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.btn-cart:hover{
+    background-color: orange;
 }
