@@ -7,8 +7,12 @@
     padding-left: 100px;
     padding-right: 100px;
 }
-.header nav a{
+ nav a{
     text-decoration: none;
-    columns: white;
-    
+        color: white!important;
+        margin-left: 20px;
+
+}
+nav a:hover{
+    color: orange!important;
 }
