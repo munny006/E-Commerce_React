@@ -1,3 +1,3 @@
 # E-Commerce_React
 
-Live Link : https://zesty-cucurucho-310c65.netlify.app
+Live Link : https://kaleidoscopic-salamander-8cc482.netlify.app/
