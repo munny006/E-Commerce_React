@@ -6,6 +6,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import { Form, useLoaderData } from "react-router-dom";
 import Shop from './components/Shop/Shop';
 import Home from './components/Layout/Home';
 import Orders from './components/Orders/Orders';
@@ -23,7 +24,8 @@ const router = createBrowserRouter([
       },
       {
         path:'orders',
-        element:<Orders></Orders>
+        element:<Orders></Orders>,
+        loader:() => fetch('products.json')
       },
       {
         path:'inventory',
